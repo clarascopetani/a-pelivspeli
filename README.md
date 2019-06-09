@@ -1,2 +1,2 @@
 # a-pelivspeli
-Proyecto Final App de recomendación de peliculas
+Proyecto Final / App de votación de peliculas
