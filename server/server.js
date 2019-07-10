@@ -17,6 +17,6 @@ app.use(indexRoutes);
 //seteamos el puerto en el cual va a escuchar los pedidos la aplicación
 var puerto = '8080';
 
-app.listen(puerto, function () {
-  console.log( "Escuchando en el puerto " + puerto );
+app.listen(process.env.PORT || 8080, function() {
+  console.log("escuchando en el puerto" + process.env.PORT);
 });
